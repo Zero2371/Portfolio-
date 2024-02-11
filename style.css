@@ -1,0 +1,141 @@
+:root{
+    --grey: #303841;
+    --blue: rgb(20, 150, 255);
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: var(--grey);
+  }
+  #navbar{
+    position: fixed;
+    width: 100%;
+  }
+  nav{
+    padding: 25px 0 25px 0;
+    background-color: rgb(20, 150, 255);
+  }
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+  .nav-link{
+    color: white;
+    text-decoration: none;
+    justify-content: space-evenly;
+    margin-right: 30px;
+    font: 25px Copperplate;
+  }
+  #welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    position: absolute important;
+    text-align: center;
+    
+  }
+  #About h1{
+   font: 75px Copperplate;
+  }
+  #About p{
+    font: 45px Copperplate;
+    color: rgb(20, 150, 255);
+    font-style: oblique;
+  }
+  #projects{
+    background: linear-gradient(180deg, var(--grey), var(--blue), var(--grey));
+    height: 100vh;
+    
+  }
+  #projects h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font: 45px Copperplate;
+  }
+  .projects{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    text-align: center;
+  }
+  .project-tile{
+    justify-content: flex-start;
+    display: grid;
+    font: 15px Copperplate;
+    margin: 25px;
+    width: 80%;
+    
+  }
+  #profile-link{
+    text-decoration: none;
+    color: white;
+  }
+  .project-tile ul {
+    list-style: none;
+  }
+  .tile-one{
+    margin: 33px;
+    background: var(--grey);
+  
+  }
+  #Contact{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--grey);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .find-me{
+    margin: 65px;
+  }
+  .find-me h1{
+    font: 75px Copperplate;
+  }
+  .social{
+    flex-direction: row;
+  }
+  footer{
+  
+  }
+  .social ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+  }
+  .icons{
+  display: flex;
+    text-decoration: none;
+    font: 25px Copperplate;
+    color: var(--blue);
+  }
+  @media only screen and (max-width: 900px){
+    nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+    #About h1{
+   font: 45px Copperplate;
+  }
+  
+  .find-me h1{
+    font: 45px Copperplate;
+  }
+  .projects{
+    display: flex;
+    flex-direction: column;
+  }
+  #projects h1{
+    font: 35px Copperplate;
+  }
+  .nav-link{
+    margin: auto 9px;
+  }
+  }
+  
