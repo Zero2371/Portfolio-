@@ -143,3 +143,67 @@ nav{
  .hamburgerIcon span:first-child{
   transform: none;
  }
+
+ /* Sections */
+
+ section{
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+ }
+
+ .section-container{
+  display: flex;
+ }
+
+ /* Profile Section */
+
+ #profile{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+ }
+
+ .sectionPicContainer{
+  display: flex;
+  height: 400px;
+  width:400px;
+  margin: auto 0;
+ }
+ 
+ .sectionText{
+  align-self: center;
+  text-align: center;
+ }
+
+ .sectionTextP{
+  font-weight: 600;
+ }
+ .sectionTextP1{
+  text-align: center;
+ }
+ .sectionTextP1{
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+ }
+
+ .title {
+  font-size: 3rem;
+  text-align: center;
+ }
+ #socialContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+ }
+
+ /* Icons */
+
+ .icon{
+  cursor: pointer;
+  height: 2rem;
+ }
